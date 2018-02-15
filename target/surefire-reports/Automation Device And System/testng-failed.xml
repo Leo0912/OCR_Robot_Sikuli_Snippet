@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Automation Device And System]" parallel="tests">
+  <test name="Base Test1(failed)" parallel="tests">
+    <classes>
+      <class name="sikuli.ocr.testClass">
+        <methods>
+          <include name="testOpenApplication"/>
+        </methods>
+      </class> <!-- sikuli.ocr.testClass -->
+    </classes>
+  </test> <!-- Base Test1(failed) -->
+</suite> <!-- Failed suite [Automation Device And System] -->
